@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "curl --request GET localhost:3000"
+    "test": "curl --request GET https://express-jenkins-test.herokuapp.com/"
   },
   "author": "",
   "license": "ISC",
