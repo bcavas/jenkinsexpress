@@ -7,7 +7,7 @@ pipeline {
         
    stage('Cloning Git') {
       steps {
-        git 'git@gitlab.com:ben.cavas/express_jenkins.git'
+        git 'git@github.com:bcavas/jenkinsexpress.git'
       }
     }
         
